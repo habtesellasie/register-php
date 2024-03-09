@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+form {
+  margin-top: 5rem;
+  border: solid white;
+  max-width: 400px;
+  margin-inline: auto;
+  border-radius: 5px;
+  background-color: black;
+  padding: 2rem 1rem;
+}
+
+.form-divider {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 8px 5px;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border: solid white 0.5px;
+  border-radius: 2px;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.have-account {
+  margin-top: 1rem;
+}
+
+.have-account a {
+  color: blue;
+}
+
+.new-user {
+  margin-bottom: 1rem;
+}
+
+input[type='file'] {
+  /* border: solid red; */
+  padding: 0;
+  border: none;
+}
+
+.passwords {
+  display: flex;
+  gap: 10px;
+}
+
+.passwords input {
+  width: 100%;
+}
+
+.user-image {
+  width: 40px;
+  height: 40px;
+}
+
+.user-image img {
+  border-radius: 50%;
+  width: 100%;
+  object-fit: cover;
+}
